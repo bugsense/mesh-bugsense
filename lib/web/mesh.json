@@ -21,7 +21,7 @@
     {
       "entry": "./src/index.js",
       "include": "./src",
-      "output": "./js/index.min.js",
+      "output": "../../bugsense.min.js",
       "build": "web:release"
     }
   ]

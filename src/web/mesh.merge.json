@@ -1,0 +1,23 @@
+{
+    "build": { 
+        "closure": {
+          "exec": "mv {{entry}} ./tmp.js; closure --js=./tmp.js --js_output_file={{output}}; rm ./tmp.js;"
+        },
+        "web:debug": ["combine"],
+        "web:release": ["web:debug", "closure"]
+    },
+    "targets": [
+        {
+            "entry": "./src/index.js",
+            "include": "./src",
+            "output": "./js/index.js",
+            "build": "web:debug"
+        },
+        {
+            "entry": "./src/index.js",
+            "include": "./src",
+            "output": "./js/index.min.js",
+            "build": "web:release"
+        }
+    ]
+}

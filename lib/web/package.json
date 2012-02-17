@@ -1,0 +1,11 @@
+{
+  "directories": {
+    "lib": "./js"
+  },
+  "name": "bugsense",
+  "description": "bugsense API",
+  "author": "Craig Condon",
+  "version": "0.0.1",
+  "dependencies": {},
+  "devDependencies": {}
+}

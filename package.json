@@ -1,0 +1,17 @@
+{
+	
+	"name": "bugsense",
+	"description": "bugsense API",
+	"author": "Craig Condon",
+	"version":"0.0.1",
+	"dependencies": {
+	},
+	"devDependencies": {
+		
+	},
+	"main": "./lib/node/index.js",
+	"directories": {
+		"mesh-src": "./src",
+		"lib": "./lib"
+	}
+}

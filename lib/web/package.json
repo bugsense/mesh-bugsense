@@ -1,6 +1,6 @@
 {
   "directories": {
-    "lib": "./js"
+    "lib": "./src"
   },
   "name": "bugsense",
   "description": "bugsense API",

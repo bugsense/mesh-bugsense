@@ -1,7 +1,7 @@
 {
   "build": {
     "closure": {
-      "exec": "mv {{entry}} ./tmp.js; closure --js=./tmp.js --js_output_file={{output}}; rm ./tmp.js;"
+      "exec": "mv {{entry}} ./tmp.js; closure --js=./tmp.js --js_output_file={{output}}; "
     },
     "web:debug": [
       "combine"

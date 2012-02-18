@@ -1,0 +1,1135 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/tmp/subl stdin N05g9A.txt",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 359,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 250,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/web/mesh.merge.json",
+			"settings":
+			{
+				"buffer_size": 595,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/web/src/index.js",
+			"settings":
+			{
+				"buffer_size": 358,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/web/src/request.js",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/web/src/sendBug.js",
+			"settings":
+			{
+				"buffer_size": 526,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/tmp/subl stdin jNu8XF.txt",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/web/src/escapeText.js",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "module.exports = function(stack) {\n    if (stack) {\n      return stack.file + ':' + stack.line;\n    }\n    try {\n      throw new Error();\n    } catch (e) {\n      if (e.stack) {\n        var matcher = /\\s+at\\s(.+)\\s\\((.+?):(\\d+)(:\\d+)?\\)/;\n        return $.map(e.stack.split(\"\\n\").slice(4), _.bind(function(line) {\n          var match  = line.match(matcher);\n          var method = escapeText(match[1]);\n          var file   = escapeText(match[2]);\n          var number = match[3];\n          return file + ':' + number + 'in' + method;\n        }, this)).join(\"\\n\");\n      } else if (e.sourceURL) {\n        // note: this is completely useless, as it just points back at itself but is needed on Safari\n        // keeping it around in case they ever end up providing actual stacktraces\n        return e.sourceURL + ':' + e.line;\n      }\n    }\n    return 'n/a:0';\n  }\n}",
+			"file": "src/web/src/generateBackTrace.js",
+			"file_size": 862,
+			"file_write_time": 1329524966000000,
+			"settings":
+			{
+				"buffer_size": 862,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/web/src/getMessage.js",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/web/src/getNotice.js",
+			"settings":
+			{
+				"buffer_size": 947,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/web/src/getScript.js",
+			"settings":
+			{
+				"buffer_size": 253,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/web/index.html",
+			"settings":
+			{
+				"buffer_size": 133,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/web/mesh.json",
+			"settings":
+			{
+				"buffer_size": 532,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": ".cupboard",
+			"settings":
+			{
+				"buffer_size": 87,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/node web/generateBackTrace.js",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/web/package.json",
+			"settings":
+			{
+				"buffer_size": 53,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/common/generateBackTrace.js",
+			"settings":
+			{
+				"buffer_size": 1045,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 136.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/craig/Dropbox/Developer/Jobs/Spice/private/teamdigest/lib/site/src/node web/plugins/teamdigest.creation/index.js",
+		"/Users/craig/Dropbox/Developer/Jobs/Spice/private/teamdigest/lib/site/src/node web/plugins/teamdigest.creation/views.js",
+		"/Users/craig/Dropbox/Developer/Jobs/Spice/private/teamdigest/lib/site/src/web/src/plugins/teamdigest.web/index.js",
+		"/Users/craig/Dropbox/Developer/Jobs/Spice/private/teamdigest/lib/back/beans/teamdigest.core/index.js",
+		"/usr/local/lib/node_modules/cupboard/lib/beans/cbd.command.dir/index.js",
+		"/Volumes/craig/Dropbox/Developer/Jobs/Spice/private/teamdigest/lib/front/shared/beans/teamdigest.creation/index.js",
+		"/Volumes/craig/Dropbox/Developer/Jobs/Spice/private/teamdigest/lib/front/release/js/bean.js",
+		"/Users/craig/Dropbox/Developer/Jobs/Spice/private/teamdigest/lib/front/index.js",
+		"/tmp/subl stdin mXaTsA.txt",
+		"/tmp/subl stdin jqYsBL.txt",
+		"/Volumes/minimac/Users/craig/Dropbox/Developer/Jobs/Spice/private/teamdigest/lib/front/web/css/style.less",
+		"/Volumes/minimac/Users/craig/Dropbox/Developer/Jobs/Spice/private/teamdigest/lib/front/web/views/tpl/home.mu",
+		"/Volumes/minimac/Users/craig/Dropbox/Developer/Jobs/Spice/private/teamdigest/lib/front/shared/beans/teamdigest.core/views.js",
+		"/Volumes/minimac/Users/craig/Dropbox/Developer/Jobs/Spice/private/teamdigest/lib/front/shared/beans/teamdigest.core/index.js",
+		"/Volumes/minimac/Users/craig/Dropbox/Developer/Jobs/Spice/private/teamdigest/lib/front/shared/beans/teamdigest.digest/views.js",
+		"/Volumes/minimac/Users/craig/Dropbox/Developer/Jobs/Spice/private/teamdigest/lib/front/web/views/tpl/digest.mu",
+		"/Volumes/minimac/Users/craig/Dropbox/Developer/Jobs/Spice/private/teamdigest/lib/front/release/js/bean.js",
+		"/Volumes/minimac/Users/craig/Dropbox/Developer/Jobs/Spice/private/teamdigest/lib/front/node_modules/cron/lib/cron.js",
+		"/Volumes/minimac/Users/craig/Dropbox/Developer/Jobs/Spice/private/teamdigest/lib/front/web/css/creation.less",
+		"/Volumes/minimac/Users/craig/Dropbox/Developer/Jobs/Spice/private/teamdigest/lib/front/web/views/tpl/creation.mu",
+		"/tmp/subl stdin lgbvHK.txt",
+		"/tmp/subl stdin G9HdR7.txt",
+		"/Volumes/minimac/Users/craig/Dropbox/Developer/Jobs/Spice/private/teamdigest/lib/front/shared/beans/teamdigest.creation/index.js",
+		"/tmp/subl stdin aahR0f.txt",
+		"/tmp/subl stdin 7E4mey.txt",
+		"/Volumes/minimac/Users/craig/Dropbox/Developer/Jobs/Spice/private/teamdigest/lib/front/shared/beans/teamdigest.creation/views.js",
+		"/Volumes/minimac/Users/craig/Dropbox/Developer/Jobs/Spice/private/teamdigest/lib/front/package.json",
+		"/Volumes/minimac/Users/craig/Dropbox/Developer/Jobs/Spice/private/teamdigest/lib/front/shared/beans/teamdigest.digest/index.js",
+		"/Volumes/minimac/Users/craig/Dropbox/Developer/Jobs/Spice/private/teamdigest/lib/front/web/js/bookmarklet.entry.js",
+		"/Volumes/minimac/Users/craig/Dropbox/Developer/Jobs/Spice/private/teamdigest/lib/front/release/js/bookmarklet.entry.js",
+		"/tmp/subl stdin 5N7CQ7.txt",
+		"/Volumes/minimac/Users/craig/Dropbox/Developer/Jobs/Spice/private/teamdigest/lib/front/web/index.html",
+		"/tmp/subl stdin Ujr1If.txt",
+		"/tmp/subl stdin w7F8nl.txt",
+		"/Volumes/minimac/Users/craig/Dropbox/Developer/Jobs/Spice/private/teamdigest/lib/front/publish/js/main.js",
+		"/Volumes/minimac/Users/craig/Dropbox/Developer/Jobs/Spice/private/teamdigest/lib/front/publish/js/bean.js",
+		"/Users/craigcondon/glow.png",
+		"/Users/craig/.cupboard/projects/teamdigest/node_modules/fig/lib/core/views/concrete.js",
+		"/Users/craig/.cupboard/projects/teamdigest/node_modules/fig/lib/core/views/abstract.js",
+		"/Users/craig/.cupboard/projects/teamdigest/node_modules/fig/lib/core/views/model.js",
+		"/Users/craig/.cupboard/projects/teamdigest/node_modules/fig/lib/core/views/template.js",
+		"/Users/craig/.cupboard/projects/teamdigest/node_modules/spice.io/beans/groups.part.saved.core/delegates.js",
+		"/Users/craig/.cupboard/projects/teamdigest/lib/front/node_modules/bean.http/plugin/beans/http.gateway/index.js",
+		"/Users/craig/.cupboard/projects/teamdigest/node_modules/spice.io/beans/groups.part.saved.core/index.js",
+		"/Users/craig/.cupboard/projects/teamdigest/node_modules/spice.io/beans/groups.part.saved.subscription.email/index.js",
+		"/Users/craig/.cupboard/projects/teamdigest/lib/front/shared/beans/teamdigest.creation/index.js",
+		"/Volumes/minimac/Users/craig/Dropbox/Developer/Jobs/Spice/private/teamdigest/package.json",
+		"/Users/craig/.cupboard/projects/teamdigest/lib/front/shared/beans/teamdigest.core/index.js",
+		"/Users/craig/Desktop/global-lock.png",
+		"/Users/craig/.cupboard/projects/teamdigest/lib/front/web/views/tpl/digest.mu",
+		"/Users/craig/.cupboard/projects/teamdigest/lib/front/shared/beans/teamdigest.digest/views.js",
+		"/Users/craig/.cupboard/projects/teamdigest/lib/front/shared/beans/teamdigest.bookmarklet/index.js",
+		"/Users/craig/.cupboard/projects/teamdigest/lib/front/node_modules/malt/lib/core/models/item.js",
+		"/Users/craig/.cupboard/projects/teamdigest/node_modules/spice.io/beans/groups.core/index.js",
+		"/Users/craig/.cupboard/projects/teamdigest/lib/front/shared/beans/teamdigest.digest/index.js",
+		"/Users/craig/.cupboard/projects/teamdigest/node_modules/leche.spice.io/shared/beans/spice.io.core/models.js",
+		"/Users/craig/.cupboard/projects/teamdigest/lib/front/shared/beans/teamdigest.creation/views.js",
+		"/Users/craig/.cupboard/projects/teamdigest/node_modules/leche.spice.io/shared/beans/connect.core/index.js",
+		"/Users/craig/.cupboard/projects/teamdigest/lib/front/web/views/tpl/creation.mu",
+		"/tmp/subl stdin D0Hull.txt",
+		"/Users/craig/.cupboard/projects/teamdigest/lib/front/node_modules/malt/lib/core/models/remote.js",
+		"/Users/craig/.cupboard/projects/teamdigest/lib/front/node_modules/malt/lib/core/models/abstract.js",
+		"/Users/craig/.cupboard/projects/teamdigest/lib/front/node_modules/malt/lib/core/models/concrete.js",
+		"/tmp/subl stdin 9SDm50.txt",
+		"/Users/craig/.cupboard/projects/teamdigest/lib/front/node_modules/malt/lib/core/models/collection.js",
+		"/Users/craig/.cupboard/projects/teamdigest/node_modules/spice.io/beans/auth.profile/index.js",
+		"/Users/craig/Library/Application Support/Sublime Text 2/Packages/User/Base File.sublime-settings",
+		"/tmp/subl stdin qOmgFT.txt"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"that.",
+			"formFields",
+			"formEl",
+			"getVal",
+			"saving",
+			"scrollTop",
+			"top:",
+			"css(",
+			".lightbox-placeholder",
+			"scroll",
+			"removeDigest",
+			"remove",
+			"article-t",
+			"checkmarkPuff",
+			"saveAndC",
+			"Recipient",
+			"Recip",
+			"Recipi",
+			"data-",
+			"create-d",
+			"login",
+			"formFields",
+			"getVal",
+			"net.",
+			"messages.",
+			"CreationV",
+			"validator",
+			"validate",
+			"checkmarkP",
+			"showSucc",
+			"error",
+			"Signu",
+			"./",
+			"toggleStates",
+			"getCronTime",
+			"schedule",
+			"index ->",
+			"create ->",
+			".get",
+			"..",
+			"_router",
+			"models",
+			"_router",
+			"models",
+			"_router",
+			"models",
+			"hide",
+			"error",
+			"err",
+			"visib",
+			"._router",
+			"router.",
+			"validateLogin",
+			"login",
+			"models",
+			"malt",
+			"Cell",
+			"removeD",
+			"SAVE_A",
+			"invite",
+			".profile",
+			"invite",
+			"eventOut",
+			"mouse",
+			"mousel",
+			"setTwi",
+			"loading",
+			"scroll",
+			"load",
+			"tryLoadingContent",
+			"_loadCe",
+			"override read",
+			"appendCHild",
+			"updateCells",
+			"DigestGridView",
+			"read",
+			"DigestView",
+			"updateCells",
+			"saved",
+			"_constr",
+			"addCell",
+			"saved",
+			"DigestGridView",
+			"alert",
+			"resetV",
+			"_container.",
+			"clear",
+			"_content",
+			"resetView",
+			"parent.change",
+			"removeDig",
+			".remove",
+			"_super",
+			"templateData",
+			"Cell",
+			"Cekk",
+			"resetView",
+			"addCell",
+			"removeDiges",
+			"removeAr",
+			"scene",
+			"CellView",
+			"cols",
+			"Cell",
+			"el",
+			"/recipients",
+			".doc\n",
+			".doc",
+			"DigestGridView",
+			".saved",
+			"cell-content",
+			"article-templat",
+			"{{",
+			"edit",
+			"token",
+			".success",
+			".pull(",
+			"bookmarklet",
+			"token",
+			".token",
+			"token",
+			".da",
+			"unable",
+			"Unable",
+			"create/",
+			"error",
+			"success",
+			".next"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			".router",
+			"/img",
+			"/img/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 15,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/tmp/subl stdin N05g9A.txt",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "README.md",
+					"settings":
+					{
+						"buffer_size": 359,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								248,
+								248
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "package.json",
+					"settings":
+					{
+						"buffer_size": 250,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								81,
+								81
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/web/mesh.merge.json",
+					"settings":
+					{
+						"buffer_size": 595,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								132,
+								132
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/web/src/index.js",
+					"settings":
+					{
+						"buffer_size": 358,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								353,
+								353
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/web/src/request.js",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/web/src/sendBug.js",
+					"settings":
+					{
+						"buffer_size": 526,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								133,
+								133
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/tmp/subl stdin jNu8XF.txt",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/web/src/escapeText.js",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "src/web/src/generateBackTrace.js",
+					"settings":
+					{
+						"buffer_size": 862,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								90,
+								90
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "src/web/src/getMessage.js",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "src/web/src/getNotice.js",
+					"settings":
+					{
+						"buffer_size": 947,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								947,
+								947
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "src/web/src/getScript.js",
+					"settings":
+					{
+						"buffer_size": 253,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								206,
+								206
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "src/web/index.html",
+					"settings":
+					{
+						"buffer_size": 133,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								85,
+								85
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "lib/web/mesh.json",
+					"settings":
+					{
+						"buffer_size": 532,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								491,
+								491
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": ".cupboard",
+					"settings":
+					{
+						"buffer_size": 87,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								86,
+								86
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "src/node web/generateBackTrace.js",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "src/web/package.json",
+					"settings":
+					{
+						"buffer_size": 53,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								44,
+								44
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "src/common/generateBackTrace.js",
+					"settings":
+					{
+						"buffer_size": 1045,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1043,
+								1043
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"figabst",
+				"node_modules/fig/lib/core/views/abstract.js"
+			],
+			[
+				"figmode",
+				"node_modules/fig/lib/core/views/model.js"
+			],
+			[
+				"figtemplat",
+				"node_modules/fig/lib/core/views/template.js"
+			],
+			[
+				"figmodel",
+				"node_modules/fig/lib/core/views/model.js"
+			],
+			[
+				"figabs",
+				"node_modules/fig/lib/core/views/abstract.js"
+			],
+			[
+				"figviews/",
+				"node_modules/fig/lib/core/views/concrete.js"
+			],
+			[
+				"figviews",
+				"node_modules/fig/lib/core/views/model.js"
+			],
+			[
+				"saveddelegat",
+				"node_modules/spice.io/beans/groups.part.saved.core/delegates.js"
+			],
+			[
+				"spicesavedinde",
+				"node_modules/spice.io/beans/groups.part.saved.subscription.email/index.js"
+			],
+			[
+				"saveddelega",
+				"node_modules/spice.io/beans/groups.part.saved.core/delegates.js"
+			],
+			[
+				"spice.iosaved",
+				"node_modules/spice.io/beans/groups.part.saved.core/index.js"
+			],
+			[
+				"spice.iosaveddele",
+				"node_modules/spice.io/beans/groups.part.saved.core/delegates.js"
+			],
+			[
+				"spice.iosavedind",
+				"node_modules/spice.io/beans/groups.part.saved.core/index.js"
+			],
+			[
+				"bean.http",
+				"lib/front/node_modules/bean.http/plugin/beans/http.gateway/index.js"
+			],
+			[
+				"maltconcr",
+				"lib/front/node_modules/malt/lib/core/models/concrete.js"
+			],
+			[
+				"maltabst",
+				"lib/front/node_modules/malt/lib/core/models/abstract.js"
+			],
+			[
+				"maltremot",
+				"lib/front/node_modules/malt/lib/core/models/remote.js"
+			],
+			[
+				"bean.http.gat",
+				"lib/front/node_modules/bean.http/plugin/beans/http.gateway/index.js"
+			],
+			[
+				"bean.httpgateway",
+				"lib/front/node_modules/bean.http/plugin/beans/http.gateway/index.js"
+			],
+			[
+				"spice.iosaveditem",
+				"node_modules/spice.io/beans/groups.part.saved.subscription.email/index.js"
+			],
+			[
+				"connect.core/",
+				"node_modules/leche.spice.io/shared/beans/connect.core/index.js"
+			],
+			[
+				"maltmodels",
+				"lib/front/node_modules/malt/lib/core/models/item.js"
+			],
+			[
+				"",
+				"node_modules/leche.spice.io/shared/beans/connect.core/index.js"
+			],
+			[
+				"malt/models",
+				"lib/front/node_modules/malt/lib/core/models/concrete.js"
+			],
+			[
+				"maltabs",
+				"lib/front/node_modules/malt/lib/core/models/abstract.js"
+			],
+			[
+				"maltremo",
+				"lib/front/node_modules/malt/lib/core/models/remote.js"
+			],
+			[
+				"maltcolle",
+				"lib/front/node_modules/malt/lib/core/models/collection.js"
+			],
+			[
+				"maltremote",
+				"lib/front/node_modules/malt/lib/core/models/remote.js"
+			],
+			[
+				"leche.spice.iomodel",
+				"node_modules/leche.spice.io/shared/beans/spice.io.core/models.js"
+			],
+			[
+				"spice.ioauthprofileind",
+				"node_modules/spice.io/beans/auth.profile/index.js"
+			],
+			[
+				"spice.iogroups",
+				"node_modules/spice.io/beans/groups.core/index.js"
+			],
+			[
+				"leche.spice.iomode",
+				"node_modules/leche.spice.io/shared/beans/spice.io.core/models.js"
+			],
+			[
+				"leche.spice.ioconne",
+				"node_modules/leche.spice.io/shared/beans/connect.core/index.js"
+			],
+			[
+				"leche.spice.io/beanconnect",
+				"node_modules/leche.spice.io/shared/beans/connect.core/index.js"
+			],
+			[
+				"lechespice.iomodel",
+				"node_modules/leche.spice.io/shared/beans/spice.io.core/models.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 219.0,
+	"status_bar_visible": true
+}
